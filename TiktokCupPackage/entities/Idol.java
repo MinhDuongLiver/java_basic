@@ -3,7 +3,7 @@ package Leson8_Arraylist.TiktokCupPackage.entities;
 import java.util.ArrayList;
 
 public class Idol extends Person{
-    private int followers = new ArrayList<>();
+    private ArrayList<Follower> followers = new ArrayList<>();
     private String group;
 
     public Idol(String name, int id, String email, int followers, String group) {
